@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     private String[] appNames;
 
     void initData() {
-        buttons = new int[]{R.id.button1, R.id.button2, R.id.button3, R.id.button4, R.id.button5, R.id.button6};
+        buttons = new int[]{R.id.btnPopularMovies, R.id.btnStockHawk, R.id.btnBuildBigger, R.id.btnAppMaterial, R.id.btnGoUbiquitous, R.id.btnCapstone};
         appNames = new String[]{getString(R.string.popular_movies),
                 getString(R.string.stock_hawk),
                 getString(R.string.build_it_bigger),
